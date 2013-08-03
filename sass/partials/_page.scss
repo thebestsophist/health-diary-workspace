@@ -13,9 +13,9 @@
 //---------------------------------------------------
 
 body, select, input, textarea {
-  color: $font-color;
+	color: $font-color;
   // Set your base font here, to apply evenly
-  // font-family: Georgia, serif;
+	font-family: "Myriad Pro", "Myriad", "Calibre", sans-serif;
 }
 
 //-----------------------------------
@@ -23,19 +23,322 @@ body, select, input, textarea {
 //-----------------------------------
 
 body > * {
-	margin: 0 auto;
-	width: 20em;	
-	
-	@include set-column(12, $small-column, $small-gutter, $small-width);
-	@include set-column(12, $large-column, $large-gutter, $large-width);
+	margin: 36px auto;
+	margin: 2rem auto;
+	@include set-size(width, 20rem);
+
+	@include set-column(none, 12, $small-column, $small-gutter, $small-width);
+	@include set-column(none, 12, $large-column, $large-gutter, $large-width);
+}
+
+	#alert {
+		@include set-column(left, 9, $small-column, $small-gutter, $small-width);
+		@include set-column(left, 9, $large-column, $large-gutter, $large-width);
+
+		text-align: center;
+
+		&.success {
+			background: lighten($light-green, 25%);
+			color: $dark-green;
+			@include border-radius($base-minus-two, $base-minus-two);
+		}
+
+		p {
+			@include rem-fallback(margin,$base-minus-two,0);
+		}
+	}
+
+section[role=main] {
+	nav {
+		ol, ul {
+			list-style: none;
+		}
+
+		a {
+			@include buttonify();
+			@include set-size(margin-bottom, $base-minus-one);
+		}
+
+		a.back {
+			@include buttonify($light-blue, $dark-blue, lighten($light-blue, 15%), darken($dark-blue, 15%));
+		}
+
+		a.optional, a.need-attention {
+			@include buttonify($light-green, $dark-green, lighten($light-green, 15%), darken($dark-green, 15%));
+		}
+
+		a.critical {
+			@include buttonify($light-red, $dark-red, lighten($light-red, 15%), darken($dark-red, 30%));
+		}
+
+	// Intensity styles
+		a.mild {
+			background: $light-red;
+			color: $dark-red;
+			&:hover {
+				background: lighten($light-red, 30%);
+				color: darken($dark-red, 30%);
+			}
+		}
+
+		a.moderate {
+			background: lighten($red, 30%);
+			color: $white;
+			&:hover {
+				background: lighten($red, 45%);
+				color: lighten($light-red, 90%);
+			}
+		}
+		a.severe {
+			background: $red;
+			color:$white;
+			&:hover {
+				background: darken($red, 30%);
+				color: lighten($light-red, 90%);
+			}
+		}
+
+		a.very-severe {
+			background: $dark-red;
+			color: lighten($light-red, 45%);
+			&:hover {
+				background: darken($dark-red, 30%);
+				color: lighten($light-red, 90%);
+			}
+		}
+		#overview a {
+			@include buttonify($light-blue, $dark-blue, lighten($light-blue, 15%), darken($dark-blue, 15%));
+		}
+	}
+}
+
+body > footer {
+	clear: both;
+}
+
+//-----------------------------------
+// Dashboard SVGs
+//-----------------------------------
+
+#dashboard {
+	@include set-column(left, 9);
+	@include set-column(left, 9, $large-column, $large-gutter, $large-width);
+
+	@media screen and (min-width: 65em) {
+		@include rem-fallback(height, 22rem);
+	}
+
+	svg {
+		.focus {
+			rect {
+				opacity: .1;
+				fill: $light-blue;
+			}
+		}
+
+		.scales {
+			path, line {
+				fill: none;
+				stroke: $light-gray;
+			}
+
+			rect {
+				fill: $white;
+			}
+			.dates text { @include rem-fallback(font-size, 1.375rem); }
+			.dates g:last-of-type text { display: none; }
+			.time g:last-of-type text { display: none; }
+		}
+
+		.timeline {
+			.scales text {
+				display: none;
+
+				&.title {
+					display: block;
+					text-anchor: end;
+				}
+			}
+
+			.plot {
+				rect {
+					opacity: .75;
+					stroke: none;
+					fill: $light-gray;
+
+					&.work { fill: $blue; }
+				}
+			}
+		}
+
+		.wellnessVis {
+			.scales {
+				path, line {
+					display: none;
+					stroke: none;
+					fill: none;
+				}
+
+				.sideLabels {
+					text-anchor: end;
+				}
+			}
+
+			.wellnessWeek {
+				.wellnessDay {
+					.label text {
+						text-anchor: center;
+					}
+
+					rect.day {
+						fill-opacity: .1;
+						fill: $white;
+					}
+					rect.day.unknown { stroke: $light-gray; }
+					rect.day.off { fill: $green; stroke: $green; }
+					rect.day.work { fill: $blue; stroke: $blue; }
+					rect.day.sickday { fill: $red; stroke: $red; }
+					rect.day.partialsickday { fill: $gold; stroke: $gold; }
+				}
+			}
+		}
+
+		.sleepgraph {
+			.scales {
+				.hours text { fill: $blue; }
+				.wakes text { fill: $red; }
+			}
+			.plot {
+				path.line { fill: none; }
+				.hours { stroke: $blue; }
+				.wakes { stroke: $red; }
+			}
+		}
+
+		.activityTimeline {
+			.plot {
+				rect, circle {
+					opacity: .5;
+
+					&:hover, &:focus {
+						opacity: .75;
+					}
+				}
+			}
+		}
+
+		.ailmentsTimeline {
+			.plot {
+				rect, circle {
+					stroke-width: 2px;
+					opacity: .5;
+
+					&:hover, &:focus {
+						opacity: .75;
+					}
+				}
+			}
+		}
+	}
+}
+
+//-----------------------------------
+// Page Specific
+//-----------------------------------
+
+#home_page {
+	nav {
+		@include set-column(right, 3);
+		@include set-column(right, 3, $large-column, $large-gutter, $large-width);
+
+		#daily, #overview, #rare {
+			border-top: 1px solid $light-gray;
+			@include rem-fallback(margin, $base-minus-one, 0, 0);
+			@include rem-fallback(padding, $base-minus-one, 0, 0);
+		}
+	}
 }
 
 
+#body-parts {
+	@include hide;
+}
 
+#selectionbody, #selectionhead, #selectionneuro {
+	@include rem-fallback(height, 25rem);
+
+	.body-side > text {
+		@include rem-fallback(font-size, $base-plus-four);
+		fill: $dark-blue;
+	}
+	.skeleton > path, .headshape > path { fill: none; stroke: $black; opacity: 0.25; }
+	.skeleton polyline { fill: none; stroke: $black; opacity: 0.75; }
+	.body-part, .headachelocation {
+		cursor: pointer;
+
+	 	path { 
+			opacity: .1;
+			fill: $blue;
+			fill-opacity: 1;
+			stroke-width: 1.25;
+			stroke-miterlimit: 4;
+			stroke-dasharray: none;
+		}
+
+		text { 
+			@include rem-fallback(font-size, $base-plus-three);
+			fill: $dark-blue;
+			opacity: .5;
+		}
+
+		&:hover {
+			path { opacity: .25; }
+			text { opacity: 1; }
+		}
+
+		&.selected {
+			path {
+				fill: $green;
+				opacity: .5;
+			}
+			text {
+				fill: $black;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+#chronic {
+	input[type="range"] {
+		-webkit-appearance: none;
+		@include background(linear-gradient(left right, lighten($red,25%), lighten($green,25%)));
+
+		&.badtoworse {
+			@include background(linear-gradient(left right, lighten($red,25%), lighten($gold,25%)));
+		}
+
+		&::-webkit-slider-thumb {
+			-webkit-appearance: none;  
+			background: transparent;
+			border-top: 4px solid $light-gray;
+			border-right: 3px solid lighten($light-gray, 5%);
+			border-bottom: 4px solid $light-gray;
+			border-left: 3px solid lighten($light-gray, 5%);
+
+			margin: -4px 0;
+			@include rem-fallback(width,$base-minus-one);
+			@include rem-fallback(height,$base-plus-two);
+		}
+	}
+}
+
+#selectionhead { @include rem-fallback(height, 15rem); }
 
 // No js at bottom to override everything above
 .no-js {
-
+	.inactive { display: block; }
+	fieldset nav { display: none; }
 }
 
 .wf-inactive {

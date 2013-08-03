@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:exslt="http://exslt.org/common"
+	xmlns:date="http://exslt.org/dates-and-times"
+	extension-elementPrefixes="date"
+	extension-element-prefixes="exslt"
+	exclude-result-prefixes="date exslt">
 
 <xsl:import href="../utilities/page-title.xsl"/>
 
@@ -10,6 +15,9 @@
 	encoding="UTF-8"
 	indent="yes" />
 
+<!-- 
+	Currently the default Symphony maintenance page, will update later
+-->
 <xsl:template match="/">
 	<html>
 		<head>

@@ -18,7 +18,9 @@ $dark-red: #422;
 $red: #633;
 $light-red: #c99;
 $black: #111;
+$dark-gray: #666;
 $gray: #999;
+$light-gray: #aaa;
 $white: #fff;
 
 $font-color: $black !default;
@@ -53,15 +55,16 @@ $small-column: 1.25rem;
 $small-gutter: 3rem;
 
 $large-width: 65rem;
-$large-column: 1rem;
+$large-column: 2.25rem;
 $large-gutter: $small-gutter;
 
-@mixin set-column($columns: 3, $column-size: $small-column, $gutter-size: $small-gutter, $full-width: $small-width) {
+@mixin set-column($float, $columns: 3, $column-size: $small-column, $gutter-size: $small-gutter, $full-width: $small-width) {
 
 // Breakpoints are set as 2em larger than the full width to care for hanging bullets
 	@media screen and (min-width: ($full-width / 1rem * 1em) + 2em) {
 		width: (($column-size / 1rem * 16px) * $columns) + ($gutter-size / 1rem * 16px * ($columns - 1));
 		width: ($column-size * $columns) + ($gutter-size * ($columns - 1));
+		float: $float;
 	}
 }
 
@@ -130,6 +133,39 @@ $large-line-height: $base-plus-three;
 	#{$property}: $top $right $bottom $left;
 }
 
+
+// From http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+  $max: length($values);
+  $pxValues: '';
+  $remValues: '';
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value*16}px;
+
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  } 
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  } 
+  
+  #{$property}: $pxValues; 
+  #{$property}: $remValues; 
+}
+
 // Transitions
 $color-transition: color 0.5s ease;
 $background-transition: background 0.5s ease;
@@ -152,4 +188,31 @@ $height-transition: height .75s ease;
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
+}
+
+@mixin buttonify($background:$blue,$color: $white, $hover-background: darken($background, 15%), $hover-color: lighten($color, 15%)) {
+	display: block;
+	@include margin-padding(padding,$base-minus-one, 0rem);
+	*overflow: visible;
+	background: $background;
+	color: $color;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	@include border-radius($base-minus-two, $base-minus-two);
+	
+	@include transition(color, .5s, ease);
+	@include transition(background .5s, ease);
+	
+	&:hover {
+		background: $hover-background;
+		color: $hover-color;
+	}
+}
+
+@mixin hide {
+	visibility: hidden;
+	position: fixed;
+	right: 0;
 }
