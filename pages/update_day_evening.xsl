@@ -15,7 +15,7 @@
 	
 	Pushes to updating the chronic diary for the evening if user preference is set
 	
-	If updating yesterday evening (a little after midnight) will push to yesterdayÕs chronic diary as well
+	If updating yesterday evening (a little after midnight) will push to yesterday's chronic diary as well
 -->
 <xsl:template match="/data">
 	<section role="main">
