@@ -100,15 +100,7 @@ if (Modernizr.mq('only screen and (max-width: 767px)')) {
 	        mode: 'scroller',
 	        dateOrder: 'M D d yy'
 	    });
-	    $('input[type="time"]').mobiscroll().time({
-	        theme: 'android-ics light',
-	        display: 'bottom',
-	        mode: 'scroller',
-	        timeWheels: 'HH ii',
-	        stepMinute: 5
-	    });
-
-	    $("input.timer").mobiscroll().time({
+	    $("input.timer, input[type='time']").mobiscroll().time({
 	        theme: 'android-ics light',
 	        display: 'bottom',
 	        mode: 'scroller',
@@ -153,16 +145,7 @@ $(function(){
         dateOrder: 'M D d yy'
     });
 
-    $("input[type='time']").mobiscroll().time({
-        theme: 'android-ics light',
-        display: 'bubble',
-        animate: 'down',
-        mode: 'mixed',
-        timeWheels: 'HH ii',
-        stepMinute: 5
-    });
-
-    $("input.timer").mobiscroll().time({
+	    $("input.timer, input[type='time']").mobiscroll().time({
         theme: 'android-ics light',
         display: 'bubble',
         animate: 'down',
