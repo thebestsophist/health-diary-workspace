@@ -22,7 +22,7 @@
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
 */
-/* line 8, ../sass/partials/_plugins.scss */
+/* line 8, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   position: absolute;
   top: 0;
@@ -31,35 +31,35 @@
   overflow: hidden;
 }
 
-/* line 9, ../sass/partials/_plugins.scss */
+/* line 9, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxOverlay {
   position: fixed;
   width: 100%;
   height: 100%;
 }
 
-/* line 10, ../sass/partials/_plugins.scss */
+/* line 10, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxMiddleLeft, #cboxBottomLeft {
   clear: left;
 }
 
-/* line 11, ../sass/partials/_plugins.scss */
+/* line 11, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxContent {
   position: relative;
 }
 
-/* line 12, ../sass/partials/_plugins.scss */
+/* line 12, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxLoadedContent {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 13, ../sass/partials/_plugins.scss */
+/* line 13, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxTitle {
   margin: 0;
 }
 
-/* line 14, ../sass/partials/_plugins.scss */
+/* line 14, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxLoadingOverlay, #cboxLoadingGraphic {
   position: absolute;
   top: 0;
@@ -68,12 +68,12 @@
   height: 100%;
 }
 
-/* line 15, ../sass/partials/_plugins.scss */
+/* line 15, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
   cursor: pointer;
 }
 
-/* line 16, ../sass/partials/_plugins.scss */
+/* line 16, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxPhoto {
   float: left;
   margin: auto;
@@ -83,7 +83,7 @@
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 17, ../sass/partials/_plugins.scss */
+/* line 17, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxIframe {
   width: 100%;
   height: 100%;
@@ -91,7 +91,7 @@
   border: 0;
 }
 
-/* line 18, ../sass/partials/_plugins.scss */
+/* line 18, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #colorbox, #cboxContent, #cboxLoadedContent {
   box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -103,12 +103,12 @@
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
-/* line 25, ../sass/partials/_plugins.scss */
+/* line 25, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxOverlay {
   background: #111111;
 }
 
-/* line 26, ../sass/partials/_plugins.scss */
+/* line 26, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #colorbox {
   outline: 0;
 }
@@ -122,7 +122,7 @@
     #cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
     #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
     #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}*/
-/* line 36, ../sass/partials/_plugins.scss */
+/* line 36, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxContent {
   background: white;
   overflow: visible;
@@ -133,33 +133,33 @@
   border-radius: 8px / 8px;
 }
 
-/* line 37, ../sass/partials/_plugins.scss */
+/* line 37, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxIframe {
   background: white;
 }
 
-/* line 38, ../sass/partials/_plugins.scss */
+/* line 38, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxError {
   padding: 50px;
   border: 1px solid #aaaaaa;
 }
 
-/* line 39, ../sass/partials/_plugins.scss */
+/* line 39, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxLoadedContent {
   margin-bottom: 5px;
 }
 
-/* line 40, ../sass/partials/_plugins.scss */
+/* line 40, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxLoadingOverlay {
   background: url(images/loading_background.png) no-repeat center center;
 }
 
-/* line 41, ../sass/partials/_plugins.scss */
+/* line 41, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxLoadingGraphic {
   background: url(images/loading.gif) no-repeat center center;
 }
 
-/* line 42, ../sass/partials/_plugins.scss */
+/* line 42, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxTitle {
   position: absolute;
   bottom: -25px;
@@ -170,7 +170,7 @@
   color: #7C7C7C;
 }
 
-/* line 43, ../sass/partials/_plugins.scss */
+/* line 43, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxCurrent {
   position: absolute;
   bottom: -25px;
@@ -180,7 +180,7 @@
 }
 
 /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
-/* line 47, ../sass/partials/_plugins.scss */
+/* line 47, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
   border: 0;
   padding: 0;
@@ -195,69 +195,69 @@
 }
 
 /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
-/* line 50, ../sass/partials/_plugins.scss */
+/* line 50, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
   outline: 0;
 }
 
-/* line 52, ../sass/partials/_plugins.scss */
+/* line 52, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxPrevious {
   left: 0px;
   background-position: -51px -25px;
 }
 
-/* line 53, ../sass/partials/_plugins.scss */
+/* line 53, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxPrevious:hover {
   background-position: -51px 0px;
 }
 
-/* line 54, ../sass/partials/_plugins.scss */
+/* line 54, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxNext {
   left: 27px;
   background-position: -75px -25px;
 }
 
-/* line 55, ../sass/partials/_plugins.scss */
+/* line 55, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxNext:hover {
   background-position: -75px 0px;
 }
 
-/* line 56, ../sass/partials/_plugins.scss */
+/* line 56, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxClose {
   right: 0;
   background-position: -100px -25px;
 }
 
-/* line 57, ../sass/partials/_plugins.scss */
+/* line 57, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 #cboxClose:hover {
   background-position: -100px 0px;
 }
 
-/* line 59, ../sass/partials/_plugins.scss */
+/* line 59, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxSlideshow_on #cboxSlideshow {
   background-position: -125px 0px;
   right: 27px;
 }
 
-/* line 60, ../sass/partials/_plugins.scss */
+/* line 60, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxSlideshow_on #cboxSlideshow:hover {
   background-position: -150px 0px;
 }
 
-/* line 61, ../sass/partials/_plugins.scss */
+/* line 61, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxSlideshow_off #cboxSlideshow {
   background-position: -150px -25px;
   right: 27px;
 }
 
-/* line 62, ../sass/partials/_plugins.scss */
+/* line 62, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .cboxSlideshow_off #cboxSlideshow:hover {
   background-position: -125px 0px;
 }
 
 /* End Colorbox */
 /* Tooltips */
-/* line 67, ../sass/partials/_plugins.scss */
+/* line 67, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy {
   font-size: 12px;
   font-size: 0.75rem;
@@ -266,7 +266,7 @@
   z-index: 100000;
 }
 
-/* line 68, ../sass/partials/_plugins.scss */
+/* line 68, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-inner {
   background-color: #111111;
   color: white;
@@ -276,7 +276,7 @@
 }
 
 /* Rounded corners */
-/* line 71, ../sass/partials/_plugins.scss */
+/* line 71, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-inner {
   -webkit-border-radius: 8px 8px;
   -moz-border-radius: 8px / 8px;
@@ -285,7 +285,7 @@
 
 /* Uncomment for shadow */
 /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
-/* line 76, ../sass/partials/_plugins.scss */
+/* line 76, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-arrow {
   position: absolute;
   width: 0;
@@ -295,27 +295,27 @@
 }
 
 /* Rules to colour arrows */
-/* line 79, ../sass/partials/_plugins.scss */
+/* line 79, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-arrow-n {
   border-bottom-color: #111111;
 }
 
-/* line 80, ../sass/partials/_plugins.scss */
+/* line 80, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-arrow-s {
   border-top-color: #111111;
 }
 
-/* line 81, ../sass/partials/_plugins.scss */
+/* line 81, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-arrow-e {
   border-left-color: #111111;
 }
 
-/* line 82, ../sass/partials/_plugins.scss */
+/* line 82, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-arrow-w {
   border-right-color: #111111;
 }
 
-/* line 84, ../sass/partials/_plugins.scss */
+/* line 84, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-n .tipsy-arrow {
   top: 0px;
   left: 50%;
@@ -326,7 +326,7 @@
   border-right-color: transparent;
 }
 
-/* line 85, ../sass/partials/_plugins.scss */
+/* line 85, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-nw .tipsy-arrow {
   top: 0;
   left: 10px;
@@ -336,7 +336,7 @@
   border-right-color: transparent;
 }
 
-/* line 86, ../sass/partials/_plugins.scss */
+/* line 86, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-ne .tipsy-arrow {
   top: 0;
   right: 10px;
@@ -346,7 +346,7 @@
   border-right-color: transparent;
 }
 
-/* line 87, ../sass/partials/_plugins.scss */
+/* line 87, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-s .tipsy-arrow {
   bottom: 0;
   left: 50%;
@@ -357,7 +357,7 @@
   border-right-color: transparent;
 }
 
-/* line 88, ../sass/partials/_plugins.scss */
+/* line 88, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-sw .tipsy-arrow {
   bottom: 0;
   left: 10px;
@@ -367,7 +367,7 @@
   border-right-color: transparent;
 }
 
-/* line 89, ../sass/partials/_plugins.scss */
+/* line 89, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-se .tipsy-arrow {
   bottom: 0;
   right: 10px;
@@ -377,7 +377,7 @@
   border-right-color: transparent;
 }
 
-/* line 90, ../sass/partials/_plugins.scss */
+/* line 90, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-e .tipsy-arrow {
   right: 0;
   top: 50%;
@@ -388,7 +388,7 @@
   border-bottom-color: transparent;
 }
 
-/* line 91, ../sass/partials/_plugins.scss */
+/* line 91, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .tipsy-w .tipsy-arrow {
   left: 0;
   top: 50%;
@@ -401,7 +401,7 @@
 
 /* End Tipsy */
 /* Datewheel overlay */
-/* line 95, ../sass/partials/_plugins.scss */
+/* line 95, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw {
   position: absolute;
   top: 5%;
@@ -422,13 +422,13 @@
   -webkit-backface-visibility: hidden;
 }
 
-/* line 113, ../sass/partials/_plugins.scss */
+/* line 113, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwi {
   position: static;
   display: inline-block;
 }
 
-/* line 117, ../sass/partials/_plugins.scss */
+/* line 117, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwr {
   min-width: 170px;
   zoom: 1;
@@ -437,7 +437,7 @@
 }
 
 /* Datewheel overlay background */
-/* line 124, ../sass/partials/_plugins.scss */
+/* line 124, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-persp, .dwo {
   width: 100%;
   height: 100%;
@@ -447,7 +447,7 @@
   z-index: 1001;
 }
 
-/* line 132, ../sass/partials/_plugins.scss */
+/* line 132, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwo {
   background: #000;
   opacity: .7;
@@ -455,41 +455,41 @@
 }
 
 /* Bubble positionings */
-/* line 138, ../sass/partials/_plugins.scss */
+/* line 138, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble .dw {
   margin: 20px 0;
 }
 
-/* line 141, ../sass/partials/_plugins.scss */
+/* line 141, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble .dw-arrw {
   position: absolute;
   left: 0;
   width: 100%;
 }
 
-/* line 146, ../sass/partials/_plugins.scss */
+/* line 146, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble-top .dw-arrw {
   bottom: -36px;
 }
 
-/* line 149, ../sass/partials/_plugins.scss */
+/* line 149, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble-bottom .dw-arrw {
   top: -36px;
 }
 
-/* line 152, ../sass/partials/_plugins.scss */
+/* line 152, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble .dw-arrw-i {
   margin: 0 30px;
   position: relative;
   height: 36px;
 }
 
-/* line 157, ../sass/partials/_plugins.scss */
+/* line 157, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble .dw-arr {
   display: block;
 }
 
-/* line 160, ../sass/partials/_plugins.scss */
+/* line 160, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-arr {
   display: none;
   position: absolute;
@@ -501,27 +501,27 @@
   margin-left: -18px;
 }
 
-/* line 170, ../sass/partials/_plugins.scss */
+/* line 170, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble-bottom .dw-arr {
   top: 0;
   border-color: transparent transparent #fff transparent;
 }
 
-/* line 174, ../sass/partials/_plugins.scss */
+/* line 174, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bubble-top .dw-arr {
   bottom: 0;
   border-color: #fff transparent transparent transparent;
 }
 
 /* Datewheel wheel container wrapper */
-/* line 179, ../sass/partials/_plugins.scss */
+/* line 179, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwc {
   padding: 30px 2px 5px 2px;
   display: inline-block;
 }
 
 /* Datewheel label */
-/* line 184, ../sass/partials/_plugins.scss */
+/* line 184, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwl {
   text-align: center;
   line-height: 30px;
@@ -533,13 +533,13 @@
 }
 
 /* Datewheel value */
-/* line 194, ../sass/partials/_plugins.scss */
+/* line 194, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwv {
   padding: 10px 0;
   border-bottom: 1px solid #000;
 }
 
-/* line 198, ../sass/partials/_plugins.scss */
+/* line 198, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-hidden {
   width: 0;
   height: 0;
@@ -550,13 +550,13 @@
 }
 
 /* Datewheel wheel container */
-/* line 207, ../sass/partials/_plugins.scss */
+/* line 207, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwrc {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
-/* line 211, ../sass/partials/_plugins.scss */
+/* line 211, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwc {
   margin: 0;
   padding: 0 2px;
@@ -566,7 +566,7 @@
 }
 
 /* Datewheel wheels */
-/* line 219, ../sass/partials/_plugins.scss */
+/* line 219, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwl {
   margin: 4px 2px;
   padding: 0 2px;
@@ -574,26 +574,26 @@
   z-index: 5;
 }
 
-/* line 225, ../sass/partials/_plugins.scss */
+/* line 225, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwww {
   position: relative;
   padding: 1px;
 }
 
-/* line 229, ../sass/partials/_plugins.scss */
+/* line 229, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dww {
   overflow: hidden;
   position: relative;
   z-index: 2;
 }
 
-/* line 234, ../sass/partials/_plugins.scss */
+/* line 234, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-moz .dww {
   opacity: .99;
   /* Fixes Firefox translate overflow bug */
 }
 
-/* line 237, ../sass/partials/_plugins.scss */
+/* line 237, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwsc .dwwl {
   background: #888;
   background: linear-gradient(#000000 0%, #333333 35%, #888888 50%, #333333 65%, #000000 100%);
@@ -602,7 +602,7 @@
   background: -moz-linear-gradient(black 0%, #333333 35%, #888888 50%, #333333 65%, black 100%);
 }
 
-/* line 244, ../sass/partials/_plugins.scss */
+/* line 244, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwsc .dww {
   color: #fff;
   background: #444;
@@ -612,19 +612,19 @@
   background: -moz-linear-gradient(black 0%, #444444 45%, #444444 55%, black 100%);
 }
 
-/* line 252, ../sass/partials/_plugins.scss */
+/* line 252, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-bf {
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
 }
 
-/* line 256, ../sass/partials/_plugins.scss */
+/* line 256, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-ul {
   position: relative;
   z-index: 2;
 }
 
-/* line 260, ../sass/partials/_plugins.scss */
+/* line 260, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-li {
   padding: 0 5px;
   display: block;
@@ -640,33 +640,33 @@
 }
 
 /* Higlighted */
-/* line 273, ../sass/partials/_plugins.scss */
+/* line 273, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-li.dw-hl {
   background: #fff;
   background: rgba(255, 255, 255, 0.3);
 }
 
 /* Valid entry */
-/* line 278, ../sass/partials/_plugins.scss */
+/* line 278, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-li.dw-v {
   opacity: 1;
   filter: Alpha(Opacity=100);
 }
 
 /* Hidden entry */
-/* line 283, ../sass/partials/_plugins.scss */
+/* line 283, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-li.dw-h {
   visibility: hidden;
 }
 
-/* line 286, ../sass/partials/_plugins.scss */
+/* line 286, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-i {
   position: relative;
   height: 100%;
 }
 
 /* Wheel +/- buttons */
-/* line 291, ../sass/partials/_plugins.scss */
+/* line 291, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwb {
   position: absolute;
   z-index: 4;
@@ -680,12 +680,12 @@
   -webkit-transition: opacity .2s linear;
 }
 
-/* line 303, ../sass/partials/_plugins.scss */
+/* line 303, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwa .dwwb {
   opacity: 0;
 }
 
-/* line 306, ../sass/partials/_plugins.scss */
+/* line 306, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwbp {
   top: 0;
   -webkit-border-radius: 3px 3px 0 0;
@@ -694,7 +694,7 @@
   font-size: 2.25rem;
 }
 
-/* line 312, ../sass/partials/_plugins.scss */
+/* line 312, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwbm {
   bottom: 0;
   -webkit-border-radius: 0 0 3px 3px;
@@ -704,28 +704,28 @@
   font-weight: bold;
 }
 
-/* line 319, ../sass/partials/_plugins.scss */
+/* line 319, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwpm .dwwc {
   background: transparent;
 }
 
-/* line 322, ../sass/partials/_plugins.scss */
+/* line 322, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwpm .dwwl {
   padding: 0;
 }
 
-/* line 325, ../sass/partials/_plugins.scss */
+/* line 325, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwpm .dw-li {
   text-shadow: none;
 }
 
-/* line 328, ../sass/partials/_plugins.scss */
+/* line 328, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwpm .dwwol {
   display: none;
 }
 
 /* Datewheel wheel overlay */
-/* line 332, ../sass/partials/_plugins.scss */
+/* line 332, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwo {
   position: absolute;
   z-index: 3;
@@ -741,7 +741,7 @@
 }
 
 /* Background line */
-/* line 346, ../sass/partials/_plugins.scss */
+/* line 346, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwwol {
   position: absolute;
   z-index: 1;
@@ -756,7 +756,7 @@
 }
 
 /* Datewheel button */
-/* line 359, ../sass/partials/_plugins.scss */
+/* line 359, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwb {
   cursor: pointer;
   overflow: hidden;
@@ -786,14 +786,14 @@
 }
 
 /* Datewheel button container */
-/* line 386, ../sass/partials/_plugins.scss */
+/* line 386, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbc {
   padding: 5px 0;
   text-align: center;
 }
 
 /* Datewheel button wrapper */
-/* line 391, ../sass/partials/_plugins.scss */
+/* line 391, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbw {
   display: inline-block;
   width: 50%;
@@ -801,30 +801,30 @@
   z-index: 5;
 }
 
-/* line 397, ../sass/partials/_plugins.scss */
+/* line 397, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbc-p .dwbw {
   width: 33.33%;
 }
 
 /* Hidden label */
-/* line 401, ../sass/partials/_plugins.scss */
+/* line 401, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwhl {
   padding-top: 10px;
 }
 
-/* line 404, ../sass/partials/_plugins.scss */
+/* line 404, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwhl .dwl {
   display: none;
 }
 
 /* Multiple selection */
-/* line 409, ../sass/partials/_plugins.scss */
+/* line 409, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwms .dwwms .dw-li {
   padding: 0 40px;
   position: relative;
 }
 
-/* line 413, ../sass/partials/_plugins.scss */
+/* line 413, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwms .dw-msel:after {
   width: 40px;
   text-align: center;
@@ -835,26 +835,26 @@
 }
 
 /* Backgrounds */
-/* line 422, ../sass/partials/_plugins.scss */
+/* line 422, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg {
   background: #fff;
   border-radius: 3px;
   -webkit-border-radius: 3px;
 }
 
-/* line 427, ../sass/partials/_plugins.scss */
+/* line 427, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwpm .dwwl {
   border: 1px solid #aaa;
 }
 
-/* line 430, ../sass/partials/_plugins.scss */
+/* line 430, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwpm .dww {
   color: #000;
   background: #fff;
   -webkit-border-radius: 3px;
 }
 
-/* line 435, ../sass/partials/_plugins.scss */
+/* line 435, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwwb {
   background: #ccc;
   color: #888;
@@ -863,7 +863,7 @@
   -webkit-box-shadow: 0 0 5px #333;
 }
 
-/* line 442, ../sass/partials/_plugins.scss */
+/* line 442, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwwbp {
   background: linear-gradient(#f7f7f7, #bdbdbd);
   background: -webkit-gradient(linear, left bottom, left top, from(#bdbdbd), to(#f7f7f7));
@@ -871,7 +871,7 @@
   background: -moz-linear-gradient(#f7f7f7, #bdbdbd);
 }
 
-/* line 448, ../sass/partials/_plugins.scss */
+/* line 448, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwwbm {
   background: linear-gradient(#bdbdbd, #f7f7f7);
   background: -webkit-gradient(linear, left bottom, left top, from(#f7f7f7), to(#bdbdbd));
@@ -879,12 +879,12 @@
   background: -moz-linear-gradient(#bdbdbd, #f7f7f7);
 }
 
-/* line 454, ../sass/partials/_plugins.scss */
+/* line 454, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwbc {
   font-size: 0;
 }
 
-/* line 457, ../sass/partials/_plugins.scss */
+/* line 457, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwb-a {
   background: #3c7500;
   background: linear-gradient(#94c840 50%, #3c7500 50%);
@@ -893,7 +893,7 @@
   background: -moz-linear-gradient(#94c840 50%, #3c7500 50%);
 }
 
-/* line 464, ../sass/partials/_plugins.scss */
+/* line 464, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dwbg .dwwl .dwb-a {
   background: #3c7500;
   background: linear-gradient(#94c840, #3c7500);
@@ -902,7 +902,7 @@
   background: -moz-linear-gradient(#94c840, #3c7500);
 }
 
-/* line 472, ../sass/partials/_plugins.scss */
+/* line 472, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-trans .dw-persp {
   overflow: hidden;
   perspective: 1000px;
@@ -910,13 +910,13 @@
   -moz-perspective: 1000px;
 }
 
-/* line 479, ../sass/partials/_plugins.scss */
+/* line 479, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-trans .dwwb,
 .dw-trans .dwwo {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 483, ../sass/partials/_plugins.scss */
+/* line 483, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-in,
 .dw-out {
   animation-duration: 350ms;
@@ -924,21 +924,21 @@
   -moz-animation-duration: 350ms;
 }
 
-/* line 488, ../sass/partials/_plugins.scss */
+/* line 488, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-in {
   animation-timing-function: ease-out;
   -webkit-animation-timing-function: ease-out;
   -moz-animation-timing-function: ease-out;
 }
 
-/* line 493, ../sass/partials/_plugins.scss */
+/* line 493, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-out {
   animation-timing-function: ease-in;
   -webkit-animation-timing-function: ease-in;
   -moz-animation-timing-function: ease-in;
 }
 
-/* line 504, ../sass/partials/_plugins.scss */
+/* line 504, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-flip,
 .dw-swing,
 .dw-slidehorizontal,
@@ -954,7 +954,7 @@
   -moz-transform: translateX(0);
 }
 
-/* line 517, ../sass/partials/_plugins.scss */
+/* line 517, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-swing,
 .dw-slidehorizontal,
 .dw-slidevertical,
@@ -966,7 +966,7 @@
   -moz-transform-origin: 0 0;
 }
 
-/* line 523, ../sass/partials/_plugins.scss */
+/* line 523, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-flip,
 .dw-pop {
   transform-origin: 50% 50%;
@@ -974,7 +974,7 @@
   -moz-transform-origin: 50% 50%;
 }
 
-/* line 528, ../sass/partials/_plugins.scss */
+/* line 528, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-pop.dw-in {
   opacity: 1;
   transform: scale(1);
@@ -985,7 +985,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 537, ../sass/partials/_plugins.scss */
+/* line 537, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-pop.dw-out {
   opacity: 0;
   animation-name: dw-p-out;
@@ -993,7 +993,7 @@
   -moz-animation-name: dw-p-out;
 }
 
-/* line 543, ../sass/partials/_plugins.scss */
+/* line 543, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-flip.dw-in {
   opacity: 1;
   transform: scale(1);
@@ -1004,7 +1004,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 552, ../sass/partials/_plugins.scss */
+/* line 552, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-flip.dw-out {
   opacity: 0;
   animation-name: dw-fl-out;
@@ -1012,7 +1012,7 @@
   -moz-animation-name: dw-fl-out;
 }
 
-/* line 558, ../sass/partials/_plugins.scss */
+/* line 558, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-swing.dw-in {
   opacity: 1;
   transform: scale(1);
@@ -1023,7 +1023,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 567, ../sass/partials/_plugins.scss */
+/* line 567, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-swing.dw-out {
   opacity: 0;
   animation-name: dw-sw-out;
@@ -1031,7 +1031,7 @@
   -moz-animation-name: dw-sw-out;
 }
 
-/* line 573, ../sass/partials/_plugins.scss */
+/* line 573, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidehorizontal.dw-in {
   opacity: 1;
   transform: scale(1);
@@ -1042,7 +1042,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 582, ../sass/partials/_plugins.scss */
+/* line 582, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidehorizontal.dw-out {
   opacity: 0;
   animation-name: dw-sh-out;
@@ -1050,7 +1050,7 @@
   -moz-animation-name: dw-sh-out;
 }
 
-/* line 588, ../sass/partials/_plugins.scss */
+/* line 588, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidevertical.dw-in {
   opacity: 1;
   animation-name: dw-dw-sv-in;
@@ -1061,7 +1061,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 597, ../sass/partials/_plugins.scss */
+/* line 597, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidevertical.dw-out {
   opacity: 0;
   animation-name: dw-sv-out;
@@ -1069,7 +1069,7 @@
   -moz-animation-name: dw-sv-out;
 }
 
-/* line 603, ../sass/partials/_plugins.scss */
+/* line 603, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidedown.dw-in {
   animation-name: dw-sd-in;
   transform: scale(1);
@@ -1079,7 +1079,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 611, ../sass/partials/_plugins.scss */
+/* line 611, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slidedown.dw-out {
   animation-name: dw-sd-out;
   -webkit-animation-name: dw-sd-out;
@@ -1088,7 +1088,7 @@
   -moz-transform: translateY(-100%);
 }
 
-/* line 618, ../sass/partials/_plugins.scss */
+/* line 618, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slideup.dw-in {
   transform: scale(1);
   animation-name: dw-su-in;
@@ -1098,7 +1098,7 @@
   -moz-transform: scale(1);
 }
 
-/* line 626, ../sass/partials/_plugins.scss */
+/* line 626, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-slideup.dw-out {
   animation-name: dw-su-out;
   -webkit-animation-name: dw-su-out;
@@ -1107,7 +1107,7 @@
   -moz-transform: translateY(100%);
 }
 
-/* line 633, ../sass/partials/_plugins.scss */
+/* line 633, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-fade.dw-in {
   opacity: 1;
   animation-name: dw-f-in;
@@ -1115,7 +1115,7 @@
   -moz-animation-name: dw-f-in;
 }
 
-/* line 639, ../sass/partials/_plugins.scss */
+/* line 639, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .dw-fade.dw-out {
   opacity: 0;
   animation-name: dw-f-out;
@@ -1125,36 +1125,36 @@
 
 /* Fade in */
 @keyframes dw-f-in {
-  /* line 647, ../sass/partials/_plugins.scss */
+  /* line 647, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
   }
 
-  /* line 650, ../sass/partials/_plugins.scss */
+  /* line 650, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes dw-f-in {
-  /* line 655, ../sass/partials/_plugins.scss */
+  /* line 655, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
   }
 
-  /* line 658, ../sass/partials/_plugins.scss */
+  /* line 658, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
   }
 }
 
 @-moz-keyframes dw-f-in {
-  /* line 663, ../sass/partials/_plugins.scss */
+  /* line 663, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
   }
 
-  /* line 666, ../sass/partials/_plugins.scss */
+  /* line 666, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
   }
@@ -1162,36 +1162,36 @@
 
 /* Fade out */
 @keyframes dw-f-out {
-  /* line 672, ../sass/partials/_plugins.scss */
+  /* line 672, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
   }
 
-  /* line 675, ../sass/partials/_plugins.scss */
+  /* line 675, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
   }
 }
 
 @-webkit-keyframes dw-f-out {
-  /* line 680, ../sass/partials/_plugins.scss */
+  /* line 680, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
   }
 
-  /* line 683, ../sass/partials/_plugins.scss */
+  /* line 683, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
   }
 }
 
 @-moz-keyframes dw-f-out {
-  /* line 688, ../sass/partials/_plugins.scss */
+  /* line 688, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
   }
 
-  /* line 691, ../sass/partials/_plugins.scss */
+  /* line 691, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
   }
@@ -1199,13 +1199,13 @@
 
 /* Pop in */
 @keyframes dw-p-in {
-  /* line 697, ../sass/partials/_plugins.scss */
+  /* line 697, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     transform: scale(0.8);
   }
 
-  /* line 701, ../sass/partials/_plugins.scss */
+  /* line 701, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     transform: scale(1);
@@ -1213,13 +1213,13 @@
 }
 
 @-webkit-keyframes dw-p-in {
-  /* line 707, ../sass/partials/_plugins.scss */
+  /* line 707, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -webkit-transform: scale(0.8);
   }
 
-  /* line 711, ../sass/partials/_plugins.scss */
+  /* line 711, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: scale(1);
@@ -1227,13 +1227,13 @@
 }
 
 @-moz-keyframes dw-p-in {
-  /* line 717, ../sass/partials/_plugins.scss */
+  /* line 717, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -moz-transform: scale(0.8);
   }
 
-  /* line 721, ../sass/partials/_plugins.scss */
+  /* line 721, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -moz-transform: scale(1);
@@ -1242,13 +1242,13 @@
 
 /* Pop out */
 @keyframes dw-p-out {
-  /* line 728, ../sass/partials/_plugins.scss */
+  /* line 728, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     transform: scale(1);
   }
 
-  /* line 732, ../sass/partials/_plugins.scss */
+  /* line 732, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     transform: scale(0.8);
@@ -1256,13 +1256,13 @@
 }
 
 @-webkit-keyframes dw-p-out {
-  /* line 738, ../sass/partials/_plugins.scss */
+  /* line 738, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: scale(1);
   }
 
-  /* line 742, ../sass/partials/_plugins.scss */
+  /* line 742, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -webkit-transform: scale(0.8);
@@ -1270,13 +1270,13 @@
 }
 
 @-moz-keyframes dw-p-out {
-  /* line 748, ../sass/partials/_plugins.scss */
+  /* line 748, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -moz-transform: scale(1);
   }
 
-  /* line 752, ../sass/partials/_plugins.scss */
+  /* line 752, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -moz-transform: scale(0.8);
@@ -1285,13 +1285,13 @@
 
 /* Flip in */
 @keyframes dw-fl-in {
-  /* line 759, ../sass/partials/_plugins.scss */
+  /* line 759, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     transform: rotateY(90deg);
   }
 
-  /* line 763, ../sass/partials/_plugins.scss */
+  /* line 763, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     transform: rotateY(0);
@@ -1299,13 +1299,13 @@
 }
 
 @-webkit-keyframes dw-fl-in {
-  /* line 769, ../sass/partials/_plugins.scss */
+  /* line 769, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -webkit-transform: rotateY(90deg);
   }
 
-  /* line 773, ../sass/partials/_plugins.scss */
+  /* line 773, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: rotateY(0);
@@ -1313,13 +1313,13 @@
 }
 
 @-moz-keyframes dw-fl-in {
-  /* line 779, ../sass/partials/_plugins.scss */
+  /* line 779, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -moz-transform: rotateY(90deg);
   }
 
-  /* line 783, ../sass/partials/_plugins.scss */
+  /* line 783, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -moz-transform: rotateY(0);
@@ -1328,13 +1328,13 @@
 
 /* Flip out */
 @keyframes dw-fl-out {
-  /* line 790, ../sass/partials/_plugins.scss */
+  /* line 790, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     transform: rotateY(0deg);
   }
 
-  /* line 794, ../sass/partials/_plugins.scss */
+  /* line 794, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     transform: rotateY(-90deg);
@@ -1342,13 +1342,13 @@
 }
 
 @-webkit-keyframes dw-fl-out {
-  /* line 800, ../sass/partials/_plugins.scss */
+  /* line 800, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: rotateY(0deg);
   }
 
-  /* line 804, ../sass/partials/_plugins.scss */
+  /* line 804, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -webkit-transform: rotateY(-90deg);
@@ -1356,13 +1356,13 @@
 }
 
 @-moz-keyframes dw-fl-out {
-  /* line 810, ../sass/partials/_plugins.scss */
+  /* line 810, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -moz-transform: rotateY(0deg);
   }
 
-  /* line 814, ../sass/partials/_plugins.scss */
+  /* line 814, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -moz-transform: rotateY(-90deg);
@@ -1371,13 +1371,13 @@
 
 /* Swing in */
 @keyframes dw-sw-in {
-  /* line 821, ../sass/partials/_plugins.scss */
+  /* line 821, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     transform: rotateY(-90deg);
   }
 
-  /* line 825, ../sass/partials/_plugins.scss */
+  /* line 825, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     transform: rotateY(0deg);
@@ -1385,13 +1385,13 @@
 }
 
 @-webkit-keyframes dw-sw-in {
-  /* line 831, ../sass/partials/_plugins.scss */
+  /* line 831, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -webkit-transform: rotateY(-90deg);
   }
 
-  /* line 835, ../sass/partials/_plugins.scss */
+  /* line 835, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: rotateY(0deg);
@@ -1399,13 +1399,13 @@
 }
 
 @-moz-keyframes dw-sw-in {
-  /* line 841, ../sass/partials/_plugins.scss */
+  /* line 841, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -moz-transform: rotateY(-90deg);
   }
 
-  /* line 845, ../sass/partials/_plugins.scss */
+  /* line 845, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -moz-transform: rotateY(0deg);
@@ -1414,13 +1414,13 @@
 
 /* Swing out */
 @keyframes dw-sw-out {
-  /* line 852, ../sass/partials/_plugins.scss */
+  /* line 852, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     transform: rotateY(0deg);
   }
 
-  /* line 856, ../sass/partials/_plugins.scss */
+  /* line 856, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     transform: rotateY(-90deg);
@@ -1428,13 +1428,13 @@
 }
 
 @-webkit-keyframes dw-sw-out {
-  /* line 862, ../sass/partials/_plugins.scss */
+  /* line 862, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: rotateY(0deg);
   }
 
-  /* line 866, ../sass/partials/_plugins.scss */
+  /* line 866, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -webkit-transform: rotateY(-90deg);
@@ -1442,13 +1442,13 @@
 }
 
 @-moz-keyframes dw-sw-out {
-  /* line 872, ../sass/partials/_plugins.scss */
+  /* line 872, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -moz-transform: rotateY(0deg);
   }
 
-  /* line 876, ../sass/partials/_plugins.scss */
+  /* line 876, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -moz-transform: rotateY(-90deg);
@@ -1457,13 +1457,13 @@
 
 /* Slide horizontal in */
 @keyframes dw-sh-in {
-  /* line 883, ../sass/partials/_plugins.scss */
+  /* line 883, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     transform: translateX(-100%);
   }
 
-  /* line 887, ../sass/partials/_plugins.scss */
+  /* line 887, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     transform: translateX(0);
@@ -1471,13 +1471,13 @@
 }
 
 @-webkit-keyframes dw-sh-in {
-  /* line 893, ../sass/partials/_plugins.scss */
+  /* line 893, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -webkit-transform: translateX(-100%);
   }
 
-  /* line 897, ../sass/partials/_plugins.scss */
+  /* line 897, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -1485,13 +1485,13 @@
 }
 
 @-moz-keyframes dw-sh-in {
-  /* line 903, ../sass/partials/_plugins.scss */
+  /* line 903, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -moz-transform: translateX(-100%);
   }
 
-  /* line 907, ../sass/partials/_plugins.scss */
+  /* line 907, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -moz-transform: translateX(0);
@@ -1500,13 +1500,13 @@
 
 /* Slide horizontal out */
 @keyframes dw-sh-out {
-  /* line 914, ../sass/partials/_plugins.scss */
+  /* line 914, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     transform: translateX(0);
   }
 
-  /* line 918, ../sass/partials/_plugins.scss */
+  /* line 918, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     transform: translateX(100%);
@@ -1514,13 +1514,13 @@
 }
 
 @-webkit-keyframes dw-sh-out {
-  /* line 924, ../sass/partials/_plugins.scss */
+  /* line 924, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 
-  /* line 928, ../sass/partials/_plugins.scss */
+  /* line 928, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -webkit-transform: translateX(100%);
@@ -1528,13 +1528,13 @@
 }
 
 @-moz-keyframes dw-sh-out {
-  /* line 934, ../sass/partials/_plugins.scss */
+  /* line 934, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 
-  /* line 938, ../sass/partials/_plugins.scss */
+  /* line 938, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -moz-transform: translateX(100%);
@@ -1543,13 +1543,13 @@
 
 /* Slide vertical in */
 @keyframes dw-dw-sv-in {
-  /* line 945, ../sass/partials/_plugins.scss */
+  /* line 945, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     transform: translateY(-100%);
   }
 
-  /* line 949, ../sass/partials/_plugins.scss */
+  /* line 949, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1557,13 +1557,13 @@
 }
 
 @-webkit-keyframes dw-dw-sv-in {
-  /* line 955, ../sass/partials/_plugins.scss */
+  /* line 955, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -webkit-transform: translateY(-100%);
   }
 
-  /* line 959, ../sass/partials/_plugins.scss */
+  /* line 959, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1571,13 +1571,13 @@
 }
 
 @-moz-keyframes dw-dw-sv-in {
-  /* line 965, ../sass/partials/_plugins.scss */
+  /* line 965, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 0;
     -moz-transform: translateY(-100%);
   }
 
-  /* line 969, ../sass/partials/_plugins.scss */
+  /* line 969, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -1586,13 +1586,13 @@
 
 /* Slide vertical out */
 @keyframes dw-sv-out {
-  /* line 976, ../sass/partials/_plugins.scss */
+  /* line 976, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     transform: translateY(0);
   }
 
-  /* line 980, ../sass/partials/_plugins.scss */
+  /* line 980, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     transform: translateY(100%);
@@ -1600,13 +1600,13 @@
 }
 
 @-webkit-keyframes dw-sv-out {
-  /* line 986, ../sass/partials/_plugins.scss */
+  /* line 986, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 
-  /* line 990, ../sass/partials/_plugins.scss */
+  /* line 990, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -webkit-transform: translateY(100%);
@@ -1614,13 +1614,13 @@
 }
 
 @-moz-keyframes dw-sv-out {
-  /* line 996, ../sass/partials/_plugins.scss */
+  /* line 996, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 
-  /* line 1000, ../sass/partials/_plugins.scss */
+  /* line 1000, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 0;
     -moz-transform: translateY(100%);
@@ -1629,25 +1629,25 @@
 
 /* Slide Down In */
 @keyframes dw-sd-in {
-  /* line 1007, ../sass/partials/_plugins.scss */
+  /* line 1007, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     transform: translateY(-100%);
   }
 
-  /* line 1010, ../sass/partials/_plugins.scss */
+  /* line 1010, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     transform: translateY(0);
   }
 }
 
 @-webkit-keyframes dw-sd-in {
-  /* line 1015, ../sass/partials/_plugins.scss */
+  /* line 1015, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateY(-100%);
   }
 
-  /* line 1019, ../sass/partials/_plugins.scss */
+  /* line 1019, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1655,12 +1655,12 @@
 }
 
 @-moz-keyframes dw-sd-in {
-  /* line 1025, ../sass/partials/_plugins.scss */
+  /* line 1025, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     -moz-transform: translateY(-100%);
   }
 
-  /* line 1028, ../sass/partials/_plugins.scss */
+  /* line 1028, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     -moz-transform: translateY(0);
   }
@@ -1668,25 +1668,25 @@
 
 /* Slide down out */
 @keyframes dw-sd-out {
-  /* line 1034, ../sass/partials/_plugins.scss */
+  /* line 1034, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     transform: translateY(0);
   }
 
-  /* line 1037, ../sass/partials/_plugins.scss */
+  /* line 1037, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     transform: translateY(-100%);
   }
 }
 
 @-webkit-keyframes dw-sd-out {
-  /* line 1042, ../sass/partials/_plugins.scss */
+  /* line 1042, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 
-  /* line 1046, ../sass/partials/_plugins.scss */
+  /* line 1046, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateY(-100%);
@@ -1694,12 +1694,12 @@
 }
 
 @-moz-keyframes dw-sd-out {
-  /* line 1052, ../sass/partials/_plugins.scss */
+  /* line 1052, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     -moz-transform: translateY(0);
   }
 
-  /* line 1055, ../sass/partials/_plugins.scss */
+  /* line 1055, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     -moz-transform: translateY(-100%);
   }
@@ -1707,25 +1707,25 @@
 
 /* Slide Up In */
 @keyframes dw-su-in {
-  /* line 1061, ../sass/partials/_plugins.scss */
+  /* line 1061, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     transform: translateY(100%);
   }
 
-  /* line 1064, ../sass/partials/_plugins.scss */
+  /* line 1064, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     transform: translateY(0);
   }
 }
 
 @-webkit-keyframes dw-su-in {
-  /* line 1069, ../sass/partials/_plugins.scss */
+  /* line 1069, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateY(100%);
   }
 
-  /* line 1073, ../sass/partials/_plugins.scss */
+  /* line 1073, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1733,12 +1733,12 @@
 }
 
 @-moz-keyframes dw-su-in {
-  /* line 1079, ../sass/partials/_plugins.scss */
+  /* line 1079, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     -moz-transform: translateY(100%);
   }
 
-  /* line 1082, ../sass/partials/_plugins.scss */
+  /* line 1082, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     -moz-transform: translateY(0);
   }
@@ -1746,25 +1746,25 @@
 
 /* Slide up out */
 @keyframes dw-su-out {
-  /* line 1088, ../sass/partials/_plugins.scss */
+  /* line 1088, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     transform: translateY(0);
   }
 
-  /* line 1091, ../sass/partials/_plugins.scss */
+  /* line 1091, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     transform: translateY(100%);
   }
 }
 
 @-webkit-keyframes dw-su-out {
-  /* line 1096, ../sass/partials/_plugins.scss */
+  /* line 1096, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 
-  /* line 1100, ../sass/partials/_plugins.scss */
+  /* line 1100, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     opacity: 1;
     -webkit-transform: translateY(100%);
@@ -1772,26 +1772,26 @@
 }
 
 @-moz-keyframes dw-su-out {
-  /* line 1106, ../sass/partials/_plugins.scss */
+  /* line 1106, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   from {
     -moz-transform: translateY(0);
   }
 
-  /* line 1109, ../sass/partials/_plugins.scss */
+  /* line 1109, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
   to {
     -moz-transform: translateY(100%);
   }
 }
 
 /* Android ICS skin */
-/* line 1115, ../sass/partials/_plugins.scss */
+/* line 1115, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw {
   padding: 0;
   color: #31b6e7;
   background: #292829;
 }
 
-/* line 1124, ../sass/partials/_plugins.scss */
+/* line 1124, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwwc,
 .android-ics .dw .dwwl,
 .android-ics .dw .dww,
@@ -1800,22 +1800,22 @@
   background: none;
 }
 
-/* line 1127, ../sass/partials/_plugins.scss */
+/* line 1127, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwr {
   padding: 0;
 }
 
-/* line 1130, ../sass/partials/_plugins.scss */
+/* line 1130, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwc {
   padding: 30px 10px 1px 10px;
 }
 
-/* line 1133, ../sass/partials/_plugins.scss */
+/* line 1133, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwhl {
   padding: 1px 10px;
 }
 
-/* line 1136, ../sass/partials/_plugins.scss */
+/* line 1136, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwv {
   height: 36px;
   line-height: 36px;
@@ -1824,32 +1824,32 @@
   font-size: 18px;
 }
 
-/* line 1143, ../sass/partials/_plugins.scss */
+/* line 1143, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwl {
   margin: 0 2px;
 }
 
-/* line 1148, ../sass/partials/_plugins.scss */
+/* line 1148, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dww,
 .android-ics .dw .dwpm .dwwl,
 .android-ics .dw .dwpm .dww {
   border: 0;
 }
 
-/* line 1151, ../sass/partials/_plugins.scss */
+/* line 1151, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dww .dw-li {
   color: #fff;
   font-size: 18px;
   text-shadow: none;
 }
 
-/* line 1156, ../sass/partials/_plugins.scss */
+/* line 1156, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dww .dw-li.dw-hl {
   background: #31b6e7;
   background: rgba(49, 182, 231, 0.5);
 }
 
-/* line 1160, ../sass/partials/_plugins.scss */
+/* line 1160, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwo {
   background: linear-gradient(#282828 0%, rgba(40, 40, 40, 0) 52%, rgba(40, 40, 40, 0) 48%, #282828 100%);
   background: -webkit-gradient(linear, left bottom, left top, from(#282828), color-stop(0.52, rgba(40, 40, 40, 0)), color-stop(0.48, rgba(40, 40, 40, 0)), to(#282828));
@@ -1857,19 +1857,19 @@
   background: -o-linear-gradient(#282828 0%, rgba(40, 40, 40, 0) 52%, rgba(40, 40, 40, 0) 48%, #282828 100%);
 }
 
-/* line 1166, ../sass/partials/_plugins.scss */
+/* line 1166, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwwb {
   background: #292829;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
 
-/* line 1171, ../sass/partials/_plugins.scss */
+/* line 1171, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwb span {
   display: none;
 }
 
-/* line 1174, ../sass/partials/_plugins.scss */
+/* line 1174, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwb:after {
   position: absolute;
   top: 50%;
@@ -1884,44 +1884,44 @@
   content: '';
 }
 
-/* line 1187, ../sass/partials/_plugins.scss */
+/* line 1187, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbm {
   top: 0;
   bottom: auto;
 }
 
-/* line 1191, ../sass/partials/_plugins.scss */
+/* line 1191, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbp {
   bottom: 0;
   top: auto;
 }
 
-/* line 1195, ../sass/partials/_plugins.scss */
+/* line 1195, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbm:after {
   border-color: transparent transparent #7e7e7e transparent;
 }
 
-/* line 1198, ../sass/partials/_plugins.scss */
+/* line 1198, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbp:after {
   border-color: #7e7e7e transparent transparent transparent;
 }
 
-/* line 1201, ../sass/partials/_plugins.scss */
+/* line 1201, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwwl .dwb-a {
   background: #292829;
 }
 
-/* line 1204, ../sass/partials/_plugins.scss */
+/* line 1204, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbm.dwb-a:after {
   border-color: transparent transparent #319abd transparent;
 }
 
-/* line 1207, ../sass/partials/_plugins.scss */
+/* line 1207, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwbp.dwb-a:after {
   border-color: #319abd transparent transparent transparent;
 }
 
-/* line 1210, ../sass/partials/_plugins.scss */
+/* line 1210, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwwol {
   width: 60%;
   left: 20%;
@@ -1932,13 +1932,13 @@
   display: block;
 }
 
-/* line 1219, ../sass/partials/_plugins.scss */
+/* line 1219, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwbc {
   border-top: 1px solid #424542;
   padding: 0;
 }
 
-/* line 1223, ../sass/partials/_plugins.scss */
+/* line 1223, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwb {
   height: 36px;
   line-height: 36px;
@@ -1952,36 +1952,36 @@
   -webkit-box-shadow: none;
 }
 
-/* line 1235, ../sass/partials/_plugins.scss */
+/* line 1235, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw .dwb-a {
   background: #29799c;
 }
 
-/* line 1238, ../sass/partials/_plugins.scss */
+/* line 1238, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwb-s .dwb, .android-ics .dwb-n .dwb {
   border-right: 1px solid #424542;
 }
 
 /* Docked */
-/* line 1242, ../sass/partials/_plugins.scss */
+/* line 1242, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.dw-bottom .dw, .android-ics.dw-top .dw {
   border-radius: 0;
   -webkit-border-radius: 0;
 }
 
 /* Multiple select */
-/* line 1247, ../sass/partials/_plugins.scss */
+/* line 1247, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwms .dwwol {
   display: none;
 }
 
-/* line 1250, ../sass/partials/_plugins.scss */
+/* line 1250, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwms .dw-li {
   padding-left: 5px;
   padding-right: 36px;
 }
 
-/* line 1254, ../sass/partials/_plugins.scss */
+/* line 1254, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwms .dw-li:after {
   content: '';
   position: absolute;
@@ -1997,23 +1997,23 @@
   text-shadow: 0 0 5px #29799c;
 }
 
-/* line 1268, ../sass/partials/_plugins.scss */
+/* line 1268, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dwwms .dw-msel:after {
   content: '✔';
 }
 
 /* Light version */
-/* line 1272, ../sass/partials/_plugins.scss */
+/* line 1272, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dw {
   background: #f5f5f5;
 }
 
-/* line 1275, ../sass/partials/_plugins.scss */
+/* line 1275, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dww .dw-li {
   color: #000;
 }
 
-/* line 1278, ../sass/partials/_plugins.scss */
+/* line 1278, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwwo {
   background: linear-gradient(#f5f5f5 0%, rgba(245, 245, 245, 0) 52%, rgba(245, 245, 245, 0) 48%, #f5f5f5 100%);
   background: -webkit-gradient(linear, left bottom, left top, from(whitesmoke), color-stop(0.52, rgba(245, 245, 245, 0)), color-stop(0.48, rgba(245, 245, 245, 0)), to(whitesmoke));
@@ -2021,61 +2021,61 @@
   background: -o-linear-gradient(whitesmoke 0%, rgba(245, 245, 245, 0) 52%, rgba(245, 245, 245, 0) 48%, whitesmoke 100%);
 }
 
-/* line 1284, ../sass/partials/_plugins.scss */
+/* line 1284, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dw .dwwb {
   background: #f5f5f5;
   color: #f5f5f5;
 }
 
-/* line 1288, ../sass/partials/_plugins.scss */
+/* line 1288, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwbc {
   border-top: 1px solid #dbdbdb;
 }
 
-/* line 1291, ../sass/partials/_plugins.scss */
+/* line 1291, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwb {
   color: #000;
 }
 
-/* line 1294, ../sass/partials/_plugins.scss */
+/* line 1294, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwb-a {
   color: #fff;
 }
 
-/* line 1297, ../sass/partials/_plugins.scss */
+/* line 1297, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwb-s .dwb, .android-ics.light .dwb-n .dwb {
   border-right: 1px solid #dbdbdb;
 }
 
 /* Bubble positioning */
-/* line 1301, ../sass/partials/_plugins.scss */
+/* line 1301, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw-bubble-bottom .dw-arr {
   border-color: transparent transparent #292829 transparent;
 }
 
-/* line 1304, ../sass/partials/_plugins.scss */
+/* line 1304, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics .dw-bubble-top .dw-arr {
   border-color: #292829 transparent transparent transparent;
 }
 
 /* Bubble positioning */
-/* line 1308, ../sass/partials/_plugins.scss */
+/* line 1308, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dw-bubble-bottom .dw-arr {
   border-color: transparent transparent #f5f5f5 transparent;
 }
 
-/* line 1311, ../sass/partials/_plugins.scss */
+/* line 1311, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dw-bubble-top .dw-arr {
   border-color: #f5f5f5 transparent transparent transparent;
 }
 
 /* Multiple select */
-/* line 1315, ../sass/partials/_plugins.scss */
+/* line 1315, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_plugins.scss */
 .android-ics.light .dwwms .dw-li:after {
   text-shadow: 0 0 5px #31b6e7;
 }
 
-/* line 33, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 33, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 article,
 aside,
 details,
@@ -2091,7 +2091,7 @@ summary {
   display: block;
 }
 
-/* line 40, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 40, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 audio,
 canvas,
 video {
@@ -2100,25 +2100,25 @@ video {
   *zoom: 1;
 }
 
-/* line 48, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 48, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 55, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 69, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 69, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 82, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 82, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 html,
 button,
 input,
@@ -2127,12 +2127,12 @@ textarea {
   font-family: sans-serif;
 }
 
-/* line 88, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 88, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 17, ../sass/partials/_overrides.scss */
+/* line 17, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -2140,68 +2140,68 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 19, ../sass/partials/_overrides.scss */
+/* line 19, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 body {
   margin: 0;
   font-size: 1em;
 }
 @media screen and (min-width: 52em) {
-  /* line 19, ../sass/partials/_overrides.scss */
+  /* line 19, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
   body {
     line-height: 24px;
     line-height: 1.5rem;
   }
 }
 
-/* line 21, ../sass/partials/_overrides.scss */
+/* line 21, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 body, button, input, select, textarea {
   font-family: sans-serif;
   color: #111111;
 }
 
-/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 109, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 109, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
 @media screen and (min-width: 52em) {
-  /* line 36, ../sass/partials/_overrides.scss */
+  /* line 36, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
   body {
     line-height: 24px;
     line-height: 1.5rem;
   }
 }
 @media screen and (min-width: 67em) {
-  /* line 36, ../sass/partials/_overrides.scss */
+  /* line 36, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
   body {
     line-height: 27.008px;
     line-height: 1.688rem;
   }
 }
 
-/* line 42, ../sass/partials/_overrides.scss */
+/* line 42, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 44, ../sass/partials/_overrides.scss */
+/* line 44, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 45, ../sass/partials/_overrides.scss */
+/* line 45, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 em em {
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 47, ../sass/partials/_overrides.scss */
+/* line 47, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 blockquote {
   margin: 0 0 -16px;
   margin: 0 0 -1rem;
@@ -2209,7 +2209,7 @@ blockquote {
   padding: 0 0 0 0.95rem;
 }
 @media screen and (min-width: 60em) {
-  /* line 47, ../sass/partials/_overrides.scss */
+  /* line 47, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
   blockquote {
     margin-left: -16px;
     margin-left: -1.5rem;
@@ -2218,12 +2218,12 @@ blockquote {
   }
 }
 
-/* line 51, ../sass/partials/_overrides.scss */
+/* line 51, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 53, ../sass/partials/_overrides.scss */
+/* line 53, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 hr {
   display: block;
   height: 1px;
@@ -2233,14 +2233,14 @@ hr {
   padding: 0;
 }
 
-/* line 55, ../sass/partials/_overrides.scss */
+/* line 55, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 ins {
   background: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 57, ../sass/partials/_overrides.scss */
+/* line 57, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -2248,38 +2248,38 @@ mark {
   font-weight: bold;
 }
 
-/* line 60, ../sass/partials/_overrides.scss */
+/* line 60, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em;
 }
 
-/* line 63, ../sass/partials/_overrides.scss */
+/* line 63, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 65, ../sass/partials/_overrides.scss */
+/* line 65, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 q {
   quotes: none;
 }
 
-/* line 66, ../sass/partials/_overrides.scss */
+/* line 66, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 q:before, q:after {
   content: "";
   content: none;
 }
 
-/* line 68, ../sass/partials/_overrides.scss */
+/* line 68, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 small {
   font-size: 12px;
   font-size: .75rem;
 }
 
-/* line 71, ../sass/partials/_overrides.scss */
+/* line 71, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 sub, sup {
   font-size: 8px;
   font-size: .5rem;
@@ -2288,61 +2288,61 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 72, ../sass/partials/_overrides.scss */
+/* line 72, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 sup {
   top: 8px;
   top: -0.5em;
 }
 
-/* line 73, ../sass/partials/_overrides.scss */
+/* line 73, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 sub {
   bottom: -4px;
   bottom: -0.25em;
 }
 
-/* line 75, ../sass/partials/_overrides.scss */
+/* line 75, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 h1, h2, h3, h4, h5, h6, dt {
   color: #003366;
 }
 
-/* line 76, ../sass/partials/_overrides.scss */
+/* line 76, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 h1 {
   font-size: 36px;
   font-size: 2.25rem;
 }
 
-/* line 80, ../sass/partials/_overrides.scss */
+/* line 80, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 h2 {
   font-size: 27px;
   font-size: 1.688rem;
 }
 
-/* line 84, ../sass/partials/_overrides.scss */
+/* line 84, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 h3, *[role=complimentary] dt {
   font-size: 24px;
   font-size: 1.5rem;
 }
 
-/* line 89, ../sass/partials/_overrides.scss */
+/* line 89, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 h4, h5, h6 {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-/* line 91, ../sass/partials/_overrides.scss */
+/* line 91, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 p, blockquote {
   font-size: 16px;
   font-size: 1rem;
 }
 
-/* line 97, ../sass/partials/_overrides.scss */
+/* line 97, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 svg + p, img + p, aside + p, p + p, figure + p, figcaption + p, blockquote + p, q + p {
   text-indent: 24px;
   text-indent: 1.5rem;
 }
 
-/* line 103, ../sass/partials/_overrides.scss */
+/* line 103, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 dl.overview dt {
   float: left;
   clear: both;
@@ -2351,11 +2351,11 @@ dl.overview dt {
   font-size: 16px;
   font-size: 1rem;
 }
-/* line 109, ../sass/partials/_overrides.scss */
+/* line 109, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 dl.overview dt:after {
   content: ":";
 }
-/* line 113, ../sass/partials/_overrides.scss */
+/* line 113, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 dl.overview dd {
   float: right;
   clear: right;
@@ -2364,20 +2364,20 @@ dl.overview dd {
   font-size: 24px;
   font-size: 1.5rem;
 }
-/* line 121, ../sass/partials/_overrides.scss */
+/* line 121, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 dl.overview:after {
   display: block;
   clear: both;
   content: " ";
 }
 
-/* line 129, ../sass/partials/_overrides.scss */
+/* line 129, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 p.note {
   font-size: 12px;
   font-size: 0.75rem;
 }
 
-/* line 253, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 253, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 dl,
 menu,
 ol,
@@ -2385,62 +2385,62 @@ ul {
   margin: 1em 0;
 }
 
-/* line 257, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 257, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 264, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 264, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 270, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 270, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* line 283, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 283, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 289, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 289, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 300, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 300, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 153, ../sass/partials/_overrides.scss */
+/* line 153, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 form {
   margin: 0;
 }
-/* line 157, ../sass/partials/_overrides.scss */
+/* line 157, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 form.corrections nav {
   display: none;
 }
 
-/* line 162, ../sass/partials/_overrides.scss */
+/* line 162, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
-/* line 167, ../sass/partials/_overrides.scss */
+/* line 167, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 fieldset.inactive {
   display: none;
 }
 
-/* line 175, ../sass/partials/_overrides.scss */
+/* line 175, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 legend {
   border: 0;
   padding: 0;
@@ -2448,12 +2448,12 @@ legend {
   *margin-left: -7px;
 }
 
-/* line 182, ../sass/partials/_overrides.scss */
+/* line 182, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 label {
   width: 100%;
 }
 
-/* line 193, ../sass/partials/_overrides.scss */
+/* line 193, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button,
 input,
 select,
@@ -2465,19 +2465,19 @@ textarea {
   width: 100%;
 }
 
-/* line 204, ../sass/partials/_overrides.scss */
+/* line 204, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 213, ../sass/partials/_overrides.scss */
+/* line 213, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 220, ../sass/partials/_overrides.scss */
+/* line 220, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -2504,7 +2504,7 @@ input[type="submit"] {
   -o-transition: background 0.5s, ease;
   transition: background 0.5s, ease;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -2513,13 +2513,13 @@ input[type="submit"]:hover {
   color: white;
 }
 
-/* line 226, ../sass/partials/_overrides.scss */
+/* line 226, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 235, ../sass/partials/_overrides.scss */
+/* line 235, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -2528,7 +2528,7 @@ input[type="radio"] {
   *width: 13px;
 }
 
-/* line 245, ../sass/partials/_overrides.scss */
+/* line 245, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -2536,38 +2536,38 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 255, ../sass/partials/_overrides.scss */
+/* line 255, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 261, ../sass/partials/_overrides.scss */
+/* line 261, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 268, ../sass/partials/_overrides.scss */
+/* line 268, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_overrides.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 434, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+/* line 434, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 15, ../sass/partials/_page.scss */
+/* line 15, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 body, select, input, textarea {
   color: #111111;
   font-family: "Myriad Pro", "Myriad", "Calibre", sans-serif;
 }
 
-/* line 25, ../sass/partials/_page.scss */
+/* line 25, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 body > * {
   margin: 36px auto;
   margin: 2rem auto;
@@ -2575,7 +2575,7 @@ body > * {
   width: 20rem;
 }
 @media screen and (min-width: 52em) {
-  /* line 25, ../sass/partials/_page.scss */
+  /* line 25, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   body > * {
     width: 768px;
     width: 48rem;
@@ -2583,7 +2583,7 @@ body > * {
   }
 }
 @media screen and (min-width: 67em) {
-  /* line 25, ../sass/partials/_page.scss */
+  /* line 25, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   body > * {
     width: 960px;
     width: 60rem;
@@ -2591,12 +2591,12 @@ body > * {
   }
 }
 
-/* line 34, ../sass/partials/_page.scss */
+/* line 34, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #alert {
   text-align: center;
 }
 @media screen and (min-width: 52em) {
-  /* line 34, ../sass/partials/_page.scss */
+  /* line 34, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #alert {
     width: 564px;
     width: 35.25rem;
@@ -2604,14 +2604,14 @@ body > * {
   }
 }
 @media screen and (min-width: 67em) {
-  /* line 34, ../sass/partials/_page.scss */
+  /* line 34, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #alert {
     width: 708px;
     width: 44.25rem;
     float: left;
   }
 }
-/* line 40, ../sass/partials/_page.scss */
+/* line 40, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #alert.success {
   background: #eef6ee;
   color: #224422;
@@ -2619,17 +2619,17 @@ body > * {
   -moz-border-radius: 0.5rem / 0.5rem;
   border-radius: 0.5rem / 0.5rem;
 }
-/* line 46, ../sass/partials/_page.scss */
+/* line 46, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #alert p {
   margin: 8px 0px;
   margin: 0.5rem 0rem;
 }
 
-/* line 53, ../sass/partials/_page.scss */
+/* line 53, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav ol, section[role=main] nav ul {
   list-style: none;
 }
-/* line 57, ../sass/partials/_page.scss */
+/* line 57, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a {
   display: block;
   padding: 12px 0px 12px 0px;
@@ -2655,12 +2655,12 @@ section[role=main] nav a {
   margin-bottom: 12px;
   margin-bottom: 0.75rem;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 section[role=main] nav a:hover {
   background: #000d1a;
   color: white;
 }
-/* line 62, ../sass/partials/_page.scss */
+/* line 62, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.back {
   display: block;
   padding: 12px 0px 12px 0px;
@@ -2684,12 +2684,12 @@ section[role=main] nav a.back {
   -o-transition: background 0.5s, ease;
   transition: background 0.5s, ease;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 section[role=main] nav a.back:hover {
   background: #9fbfdf;
   color: black;
 }
-/* line 66, ../sass/partials/_page.scss */
+/* line 66, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.optional, section[role=main] nav a.need-attention {
   display: block;
   padding: 12px 0px 12px 0px;
@@ -2713,12 +2713,12 @@ section[role=main] nav a.optional, section[role=main] nav a.need-attention {
   -o-transition: background 0.5s, ease;
   transition: background 0.5s, ease;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 section[role=main] nav a.optional:hover, section[role=main] nav a.need-attention:hover {
   background: #cce5cc;
   color: #091109;
 }
-/* line 70, ../sass/partials/_page.scss */
+/* line 70, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.critical {
   display: block;
   padding: 12px 0px 12px 0px;
@@ -2742,52 +2742,52 @@ section[role=main] nav a.critical {
   -o-transition: background 0.5s, ease;
   transition: background 0.5s, ease;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 section[role=main] nav a.critical:hover {
   background: #e5cccc;
   color: black;
 }
-/* line 75, ../sass/partials/_page.scss */
+/* line 75, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.mild {
   background: #cc9999;
   color: #442222;
 }
-/* line 78, ../sass/partials/_page.scss */
+/* line 78, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.mild:hover {
   background: white;
   color: black;
 }
-/* line 84, ../sass/partials/_page.scss */
+/* line 84, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.moderate {
   background: #bb7777;
   color: white;
 }
-/* line 87, ../sass/partials/_page.scss */
+/* line 87, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.moderate:hover {
   background: #d4aaaa;
   color: white;
 }
-/* line 92, ../sass/partials/_page.scss */
+/* line 92, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.severe {
   background: #663333;
   color: white;
 }
-/* line 95, ../sass/partials/_page.scss */
+/* line 95, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.severe:hover {
   background: black;
   color: white;
 }
-/* line 101, ../sass/partials/_page.scss */
+/* line 101, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.very-severe {
   background: #442222;
   color: white;
 }
-/* line 104, ../sass/partials/_page.scss */
+/* line 104, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav a.very-severe:hover {
   background: black;
   color: white;
 }
-/* line 109, ../sass/partials/_page.scss */
+/* line 109, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 section[role=main] nav #overview a {
   display: block;
   padding: 12px 0px 12px 0px;
@@ -2811,19 +2811,19 @@ section[role=main] nav #overview a {
   -o-transition: background 0.5s, ease;
   transition: background 0.5s, ease;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_base.scss */
 section[role=main] nav #overview a:hover {
   background: #9fbfdf;
   color: black;
 }
 
-/* line 115, ../sass/partials/_page.scss */
+/* line 115, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 body > footer {
   clear: both;
 }
 
 @media screen and (min-width: 52em) {
-  /* line 123, ../sass/partials/_page.scss */
+  /* line 123, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #dashboard {
     width: 564px;
     width: 35.25rem;
@@ -2831,7 +2831,7 @@ body > footer {
   }
 }
 @media screen and (min-width: 67em) {
-  /* line 123, ../sass/partials/_page.scss */
+  /* line 123, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #dashboard {
     width: 708px;
     width: 44.25rem;
@@ -2839,141 +2839,141 @@ body > footer {
   }
 }
 @media screen and (min-width: 65em) {
-  /* line 123, ../sass/partials/_page.scss */
+  /* line 123, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #dashboard {
     height: 352px;
     height: 22rem;
   }
 }
-/* line 133, ../sass/partials/_page.scss */
+/* line 133, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .focus rect {
   opacity: .1;
   fill: #6699cc;
 }
-/* line 140, ../sass/partials/_page.scss */
+/* line 140, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .scales path, #dashboard svg .scales line {
   fill: none;
   stroke: #aaaaaa;
 }
-/* line 145, ../sass/partials/_page.scss */
+/* line 145, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .scales rect {
   fill: white;
 }
-/* line 148, ../sass/partials/_page.scss */
+/* line 148, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .scales .dates text {
   font-size: 22px;
   font-size: 1.375rem;
 }
-/* line 149, ../sass/partials/_page.scss */
+/* line 149, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .scales .dates g:last-of-type text {
   display: none;
 }
-/* line 150, ../sass/partials/_page.scss */
+/* line 150, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .scales .time g:last-of-type text {
   display: none;
 }
-/* line 154, ../sass/partials/_page.scss */
+/* line 154, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .timeline .scales text {
   display: none;
 }
-/* line 157, ../sass/partials/_page.scss */
+/* line 157, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .timeline .scales text.title {
   display: block;
   text-anchor: end;
 }
-/* line 164, ../sass/partials/_page.scss */
+/* line 164, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .timeline .plot rect {
   opacity: .75;
   stroke: none;
   fill: #aaaaaa;
 }
-/* line 169, ../sass/partials/_page.scss */
+/* line 169, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .timeline .plot rect.work {
   fill: #003366;
 }
-/* line 176, ../sass/partials/_page.scss */
+/* line 176, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .scales path, #dashboard svg .wellnessVis .scales line {
   display: none;
   stroke: none;
   fill: none;
 }
-/* line 182, ../sass/partials/_page.scss */
+/* line 182, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .scales .sideLabels {
   text-anchor: end;
 }
-/* line 189, ../sass/partials/_page.scss */
+/* line 189, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay .label text {
   text-anchor: center;
 }
-/* line 193, ../sass/partials/_page.scss */
+/* line 193, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day {
   fill-opacity: .1;
   fill: white;
 }
-/* line 197, ../sass/partials/_page.scss */
+/* line 197, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day.unknown {
   stroke: #aaaaaa;
 }
-/* line 198, ../sass/partials/_page.scss */
+/* line 198, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day.off {
   fill: #336633;
   stroke: #336633;
 }
-/* line 199, ../sass/partials/_page.scss */
+/* line 199, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day.work {
   fill: #003366;
   stroke: #003366;
 }
-/* line 200, ../sass/partials/_page.scss */
+/* line 200, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day.sickday {
   fill: #663333;
   stroke: #663333;
 }
-/* line 201, ../sass/partials/_page.scss */
+/* line 201, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .wellnessVis .wellnessWeek .wellnessDay rect.day.partialsickday {
   fill: #666633;
   stroke: #666633;
 }
-/* line 208, ../sass/partials/_page.scss */
+/* line 208, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .sleepgraph .scales .hours text {
   fill: #003366;
 }
-/* line 209, ../sass/partials/_page.scss */
+/* line 209, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .sleepgraph .scales .wakes text {
   fill: #663333;
 }
-/* line 212, ../sass/partials/_page.scss */
+/* line 212, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .sleepgraph .plot path.line {
   fill: none;
 }
-/* line 213, ../sass/partials/_page.scss */
+/* line 213, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .sleepgraph .plot .hours {
   stroke: #003366;
 }
-/* line 214, ../sass/partials/_page.scss */
+/* line 214, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .sleepgraph .plot .wakes {
   stroke: #663333;
 }
-/* line 220, ../sass/partials/_page.scss */
+/* line 220, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .activityTimeline .plot rect, #dashboard svg .activityTimeline .plot circle {
   opacity: .5;
 }
-/* line 223, ../sass/partials/_page.scss */
+/* line 223, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .activityTimeline .plot rect:hover, #dashboard svg .activityTimeline .plot rect:focus, #dashboard svg .activityTimeline .plot circle:hover, #dashboard svg .activityTimeline .plot circle:focus {
   opacity: .75;
 }
-/* line 232, ../sass/partials/_page.scss */
+/* line 232, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .ailmentsTimeline .plot rect, #dashboard svg .ailmentsTimeline .plot circle {
   stroke-width: 2px;
   opacity: .5;
 }
-/* line 236, ../sass/partials/_page.scss */
+/* line 236, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #dashboard svg .ailmentsTimeline .plot rect:hover, #dashboard svg .ailmentsTimeline .plot rect:focus, #dashboard svg .ailmentsTimeline .plot circle:hover, #dashboard svg .ailmentsTimeline .plot circle:focus {
   opacity: .75;
 }
 
 @media screen and (min-width: 52em) {
-  /* line 250, ../sass/partials/_page.scss */
+  /* line 250, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #home_page nav {
     width: 156px;
     width: 9.75rem;
@@ -2981,15 +2981,15 @@ body > footer {
   }
 }
 @media screen and (min-width: 67em) {
-  /* line 250, ../sass/partials/_page.scss */
+  /* line 250, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
   #home_page nav {
     width: 204px;
     width: 12.75rem;
     float: right;
   }
 }
-/* line 254, ../sass/partials/_page.scss */
-#home_page nav #daily, #home_page nav #overview, #home_page nav #rare {
+/* line 254, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
+#home_page nav #now, #home_page nav #daily, #home_page nav #overview, #home_page nav #rare {
   border-top: 1px solid #aaaaaa;
   margin: 12px 0px 0px;
   margin: 0.75rem 0rem 0rem;
@@ -2997,41 +2997,41 @@ body > footer {
   padding: 0.75rem 0rem 0rem;
 }
 
-/* line 263, ../sass/partials/_page.scss */
+/* line 263, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #body-parts {
   visibility: hidden;
   position: fixed;
   right: 0;
 }
 
-/* line 267, ../sass/partials/_page.scss */
+/* line 267, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody, #selectionhead, #selectionneuro {
   height: 400px;
   height: 25rem;
 }
-/* line 270, ../sass/partials/_page.scss */
+/* line 270, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-side > text, #selectionhead .body-side > text, #selectionneuro .body-side > text {
   font-size: 36px;
   font-size: 2.25rem;
   fill: #002244;
 }
-/* line 274, ../sass/partials/_page.scss */
+/* line 274, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .skeleton > path, #selectionbody .headshape > path, #selectionhead .skeleton > path, #selectionhead .headshape > path, #selectionneuro .skeleton > path, #selectionneuro .headshape > path {
   fill: none;
   stroke: #111111;
   opacity: 0.25;
 }
-/* line 275, ../sass/partials/_page.scss */
+/* line 275, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .skeleton polyline, #selectionhead .skeleton polyline, #selectionneuro .skeleton polyline {
   fill: none;
   stroke: #111111;
   opacity: 0.75;
 }
-/* line 276, ../sass/partials/_page.scss */
+/* line 276, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part, #selectionbody .headachelocation, #selectionhead .body-part, #selectionhead .headachelocation, #selectionneuro .body-part, #selectionneuro .headachelocation {
   cursor: pointer;
 }
-/* line 279, ../sass/partials/_page.scss */
+/* line 279, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part path, #selectionbody .headachelocation path, #selectionhead .body-part path, #selectionhead .headachelocation path, #selectionneuro .body-part path, #selectionneuro .headachelocation path {
   opacity: .1;
   fill: #003366;
@@ -3040,33 +3040,33 @@ body > footer {
   stroke-miterlimit: 4;
   stroke-dasharray: none;
 }
-/* line 288, ../sass/partials/_page.scss */
+/* line 288, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part text, #selectionbody .headachelocation text, #selectionhead .body-part text, #selectionhead .headachelocation text, #selectionneuro .body-part text, #selectionneuro .headachelocation text {
   font-size: 27.008px;
   font-size: 1.688rem;
   fill: #002244;
   opacity: .5;
 }
-/* line 295, ../sass/partials/_page.scss */
+/* line 295, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part:hover path, #selectionbody .headachelocation:hover path, #selectionhead .body-part:hover path, #selectionhead .headachelocation:hover path, #selectionneuro .body-part:hover path, #selectionneuro .headachelocation:hover path {
   opacity: .25;
 }
-/* line 296, ../sass/partials/_page.scss */
+/* line 296, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part:hover text, #selectionbody .headachelocation:hover text, #selectionhead .body-part:hover text, #selectionhead .headachelocation:hover text, #selectionneuro .body-part:hover text, #selectionneuro .headachelocation:hover text {
   opacity: 1;
 }
-/* line 300, ../sass/partials/_page.scss */
+/* line 300, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part.selected path, #selectionbody .headachelocation.selected path, #selectionhead .body-part.selected path, #selectionhead .headachelocation.selected path, #selectionneuro .body-part.selected path, #selectionneuro .headachelocation.selected path {
   fill: #336633;
   opacity: .5;
 }
-/* line 304, ../sass/partials/_page.scss */
+/* line 304, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionbody .body-part.selected text, #selectionbody .headachelocation.selected text, #selectionhead .body-part.selected text, #selectionhead .headachelocation.selected text, #selectionneuro .body-part.selected text, #selectionneuro .headachelocation.selected text {
   fill: #111111;
   opacity: 1;
 }
 
-/* line 313, ../sass/partials/_page.scss */
+/* line 313, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #chronic input[type="range"] {
   -webkit-appearance: none;
   background: -webkit-gradient(linear, 100% 0%, 0% 100%, color-stop(0%, #b36666), color-stop(100%, #66b366));
@@ -3075,7 +3075,7 @@ body > footer {
   background: -o-linear-gradient(left right, #b36666, #66b366);
   background: linear-gradient(left right, #b36666, #66b366);
 }
-/* line 317, ../sass/partials/_page.scss */
+/* line 317, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #chronic input[type="range"].badtoworse {
   background: -webkit-gradient(linear, 100% 0%, 0% 100%, color-stop(0%, #b36666), color-stop(100%, #b3b366));
   background: -webkit-linear-gradient(left right, #b36666, #b3b366);
@@ -3083,7 +3083,7 @@ body > footer {
   background: -o-linear-gradient(left right, #b36666, #b3b366);
   background: linear-gradient(left right, #b36666, #b3b366);
 }
-/* line 321, ../sass/partials/_page.scss */
+/* line 321, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #chronic input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: transparent;
@@ -3098,29 +3098,29 @@ body > footer {
   height: 1.5rem;
 }
 
-/* line 336, ../sass/partials/_page.scss */
+/* line 336, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 #selectionhead {
   height: 240px;
   height: 15rem;
 }
 
-/* line 340, ../sass/partials/_page.scss */
+/* line 340, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 .no-js .inactive {
   display: block;
 }
-/* line 341, ../sass/partials/_page.scss */
+/* line 341, /Users/bernardy/Sites/sites/health-diary/workspace/sass/partials/_page.scss */
 .no-js fieldset nav {
   display: none;
 }
 
-/* line 7, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 7, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
   *text-indent: -9999px;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 27, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .ir:before {
   content: "";
   display: block;
@@ -3128,13 +3128,13 @@ body > footer {
   height: 150%;
 }
 
-/* line 9, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 9, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 11, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 11, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -3145,7 +3145,7 @@ body > footer {
   position: absolute;
   width: 1px;
 }
-/* line 67, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 67, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -3155,28 +3155,28 @@ body > footer {
   width: auto;
 }
 
-/* line 13, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 13, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 93, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 93, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 98, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 98, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .clearfix:after {
   clear: both;
 }
-/* line 104, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+/* line 104, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
 .clearfix {
   *zoom: 1;
 }
 
 /* Media Queries are include in the _page to take advantage of bubbling out features */
 @media print {
-  /* line 11, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 11, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -3184,48 +3184,48 @@ body > footer {
     text-shadow: none !important;
   }
 
-  /* line 19, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 19, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 23, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 23, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 27, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 37, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 37, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 42, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 42, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 47, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 47, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 52, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 52, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 56, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 56, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   img {
     max-width: 100% !important;
   }
@@ -3234,7 +3234,7 @@ body > footer {
     margin: 0.5cm;
 }
 
-  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 66, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   p,
   h2,
   h3 {
@@ -3242,7 +3242,7 @@ body > footer {
     widows: 3;
   }
 
-  /* line 72, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  /* line 72, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
   h2,
   h3 {
     page-break-after: avoid;

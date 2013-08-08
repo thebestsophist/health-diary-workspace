@@ -251,7 +251,7 @@ body > footer {
 		@include set-column(right, 3);
 		@include set-column(right, 3, $large-column, $large-gutter, $large-width);
 
-		#daily, #overview, #rare {
+		#now, #daily, #overview, #rare {
 			border-top: 1px solid $light-gray;
 			@include rem-fallback(margin, $base-minus-one, 0, 0);
 			@include rem-fallback(padding, $base-minus-one, 0, 0);
