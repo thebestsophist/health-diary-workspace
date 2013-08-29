@@ -243,7 +243,13 @@ body > footer {
 }
 
 //-----------------------------------
-// Page Specific
+// Page Specific Styles
+//
+// The body element is appended with
+// `[page_name]_page` in the
+// `utilities/masters.xsl` template.
+// This gives us maximum flexibility
+// in providing page-specific styles
 //-----------------------------------
 
 #home_page {
@@ -259,7 +265,7 @@ body > footer {
 	}
 }
 
-
+// These are selected/deselected through the svg images
 #body-parts {
 	@include hide;
 }
