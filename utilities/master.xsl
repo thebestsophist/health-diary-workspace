@@ -47,13 +47,13 @@
 	<meta name="viewport" content="width=device-width"/>
 
 <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{$workspace}/apple-touch-icon-152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{$workspace}/apple-touch-icon-152-precomposed.png" />
 <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{$workspace}/apple-touch-icon-120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{$workspace}/apple-touch-icon-120-precomposed.png" />
 <!-- For the iPad mini and the first- and second-generation iPad on iOS ≤ 6: -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{$workspace}/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{$workspace}/apple-touch-icon-72-precomposed.png" />
 <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-<link rel="apple-touch-icon-precomposed" href="{$workspace}/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="{$workspace}/apple-touch-icon-precomposed.png" />
 
 	<link type="text/plain" rel="author">
 		<xsl:attribute name="href">
